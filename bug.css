@@ -1,0 +1,7 @@
+The following CSS code snippet attempts to style an element with a background image using a relative path. However, the image path is incorrect, leading to the background image not being displayed.  This is a common error, particularly when the CSS file is not located in the same directory as the image file. 
+
+```css
+.my-element {
+  background-image: url(images/my-image.png);
+}
+```
